@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #f009;
+    min-height: 16px;
+    flex-grow: 1;
+}
+
+.main{
+    background-color: #0f09;
+    min-height: 312px;
+}
+
+.footer{
+    background-color: #00f9;
+    min-height: 32px;
+}
